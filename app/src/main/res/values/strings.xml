@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">notebook_study_project</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    /// auth fragment
+    <string name="header_txt_vw">Tell me your secrets lad</string>
+    <string name="login_hint">Login</string>
+    <string name="sign_in_btn">Sign in</string>
+
+    /// notes fragment
+    <string name="greeting_txt_vw">Hi, </string>
+
+    /// new note fragment
+    <string name="hint_header">Header...</string>
+    <string name="hint_content">Type here...</string>
+
+    /// edit note fragment
+    <string name="delete_note_btn">Delete</string>
+</resources>

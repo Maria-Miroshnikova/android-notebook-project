@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/authorisationPageFragment">
+
+    <fragment
+        android:id="@+id/authorisationPageFragment"
+        android:name="com.learn.notebook_study_project.AuthorisationPageFragment"
+        android:label="fragment_authorization_page"
+        tools:layout="@layout/fragment_authorization_page" >
+        <action
+            android:id="@+id/action_authorisationPageFragment_to_notesPageFragment"
+            app:destination="@id/notesPageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/notesPageFragment"
+        android:name="com.learn.notebook_study_project.NotesPageFragment"
+        android:label="fragment_notes_page"
+        tools:layout="@layout/fragment_notes_page" >
+        <action
+            android:id="@+id/action_notesPageFragment_to_newNoteFragment"
+            app:destination="@id/newNoteFragment" />
+        <action
+            android:id="@+id/action_notesPageFragment_to_editNoteFragment"
+            app:destination="@id/editNoteFragment" />
+        <action
+            android:id="@+id/action_notesPageFragment_to_authorisationPageFragment"
+            app:destination="@id/authorisationPageFragment" />
+        <action
+            android:id="@+id/action_notesPageFragment_to_authorisationPageFragment2"
+            app:destination="@id/authorisationPageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/newNoteFragment"
+        android:name="com.learn.notebook_study_project.NewNoteFragment"
+        android:label="fragment_new_note"
+        tools:layout="@layout/fragment_new_note" >
+        <action
+            android:id="@+id/action_newNoteFragment_to_notesPageFragment"
+            app:destination="@id/notesPageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editNoteFragment"
+        android:name="com.learn.notebook_study_project.EditNoteFragment"
+        android:label="EditNoteFragment" >
+        <action
+            android:id="@+id/action_editNoteFragment_to_notesPageFragment"
+            app:destination="@id/notesPageFragment" />
+    </fragment>
+</navigation>
