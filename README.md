@@ -8,3 +8,5 @@
 Видео взаимодействя с приложением см. в корневом каталоге.
 
 ![2022-07-25_17-42-08](https://user-images.githubusercontent.com/43678315/180804476-4cc4e296-c138-470a-943c-3ebb4c8f2f00.png)
+![2022-07-25_17-44-05](https://user-images.githubusercontent.com/43678315/180805066-b27d2263-bc87-4229-a7da-a22d21dc8ab7.png)
+![2022-07-25_17-44-23](https://user-images.githubusercontent.com/43678315/180805072-70a30f57-ab64-4ba1-a274-11b36d721aea.png)
